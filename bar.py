@@ -17,7 +17,7 @@ def calcolatore_netto(ral, verbose=False):
     irpef = imponibile * 0.23
 
   elif imponibile > 28000 and imponibile <= 50000:
-    irpef = 6640 + (imponibile - 28000) * 0.35
+    irpef = 6440 + (imponibile - 28000) * 0.35
 
   else:
     irpef = 14140 + (imponibile - 50000) * 0.43
